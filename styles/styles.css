@@ -1,0 +1,52 @@
+html {
+  font-family: 'Helvetica', sans-serif;
+  font-size: calc(100vw / 50);
+}
+
+body {
+  padding: 24px;
+  max-width: 60%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 1rem;
+  line-height: 1.3rem;
+}
+
+a {
+  color: #936d26;
+  text-decoration: none;
+  &:hover {
+    border-bottom: calc(100vw / 100) solid #936d26;
+  }
+}
+
+@keyframes wiggle {
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(-10deg); }
+  20% { transform: rotate(10deg); }
+  30% { transform: rotate(-10deg); }
+  40% { transform: rotate(10deg); }
+  50% { transform: rotate(-10deg); }
+  60% { transform: rotate(10deg); }
+  70% { transform: rotate(-10deg); }
+  80% { transform: rotate(10deg); }
+  90% { transform: rotate(-10deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.wiggle {
+  animation: wiggle 0.5s ease-in;
+}
+
+img {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  width: 200px;
+}
+
+.spacer {
+  width: 0.5rem;
+  display: inline-block;
+}
