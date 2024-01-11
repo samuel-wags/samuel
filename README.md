@@ -7,5 +7,3 @@ At work, I'm interested in performance tuning Ruby codebases, writing code that'
 After a decade living in Los Angeles, I recently completed a cross-country move and find myself in Ridgewood, Queens. My miniature schnauzer Merlin came along for the ride and is adjusting begrudgingly to our new home.
 
 [GitHub](https://github.com/samuel-wags) - [LinkedIn](https://www.linkedin.com/in/samuel-wagner-223307106/)
-
-![Merlin](images/Merlin.jpeg)
